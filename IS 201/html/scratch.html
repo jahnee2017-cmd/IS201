@@ -1,0 +1,146 @@
+<!--
+Name: Jolee Ahnee
+Course: IS 201
+Section: ______
+Assignment: From-Scratch Page
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scratch | Hans Zimmer</title>
+
+  <!-- Link your from-scratch CSS file -->
+<link rel="stylesheet" href="../styles/scratch.css" />
+</head>
+
+<body>
+  <!-- Navigation back to professional pages -->
+  <div class="nav" id="top">
+  <a href="index.html">← Back to Professional Site</a>
+  <a href="resume.html">Resume</a>
+  <a href="app.html">My Web App</a>
+  <a href="#video">Jump to Video ↓</a>
+  <a href="#tableau">Jump to Tableau ↓</a>
+</div>
+
+  <div class="container">
+    <!-- DIV 1 -->
+    <div class="card hero">
+      <h1>Why Hans Zimmer Is the Greatest Film Composer of All Time</h1>
+      <p class="subtitle">
+        This page was created completely from scratch using HTML and CSS.
+        Hans Zimmer’s music has shaped modern cinema through emotion, innovation,
+        and unforgettable sound.
+      </p>
+
+      <p class="small">
+        On-page anchors:
+        <a href="#reasons">Reasons</a> ·
+        <a href="#image">Image</a> ·
+        <a href="#video">YouTube</a> ·
+        <a href="#tableau">Tableau</a>
+      </p>
+    </div>
+
+    <div class="grid" id="reasons">
+      <!-- DIV 2 -->
+      <div class="card">
+        <h2>Main Reasons</h2>
+
+        <!-- REQUIRED: unordered list inside ordered list -->
+        <ol>
+          <li>
+            Iconic and memorable themes
+            <ul>
+              <li>Instantly recognizable melodies</li>
+              <li>Simple ideas with massive emotional impact</li>
+            </ul>
+          </li>
+
+          <li>
+            Emotional storytelling through sound
+            <ul>
+              <li>Music that feels physical and immersive</li>
+              <li>Scores that elevate scenes beyond dialogue</li>
+            </ul>
+          </li>
+
+          <li>
+            Changed the sound of modern film
+            <ul>
+              <li>Blended orchestral music with electronics</li>
+              <li>Influenced an entire generation of composers</li>
+            </ul>
+          </li>
+        </ol>
+
+        <p class="small muted">
+          Back to top: <a href="#top">Click here</a>
+        </p>
+      </div>
+
+      <!-- DIV 3 -->
+      <div class="card" id="image">
+        <h2>Hans Zimmer Portrait</h2>
+
+        <!-- Put the image in your images folder and use this path -->
+       <img class="photo" src="images/hans_zimmer.jpeg" alt="Hans Zimmer portrait" />
+        <p class="small muted">
+        </p>
+      </div>
+
+      <!-- DIV 4 -->
+      <div class="card" id="video">
+        <h2>YouTube Performance</h2>
+
+        <div class="video-wrap">
+          <iframe
+            src="https://www.youtube.com/embed/GGs_NT4iL2c"
+            title="Hans Zimmer Live Performance"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <p class="small">
+          Back to top: <a href="#top">Click here</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- REQUIRED: Tableau section -->
+    <div class="card" id="tableau">
+      <h2>Interactive Tableau Visualization</h2>
+
+      <p class="subtitle">
+        Paste a LIVE Tableau Public embed below (Share → Embed Code).
+        It must be interactive, not a screenshot.
+      </p>
+
+      <div class="tableau-box">
+        <!-- PASTE TABLEAU EMBED CODE HERE -->
+        <p class="small muted">
+          Paste the Tableau embed code here (it will include a div + a script).
+        </p>
+      </div>
+
+      <p class="small">
+        Back to top: <a href="#top">Click here</a>
+      </p>
+    </div>
+
+    <div class="footer">
+      <p class="small muted">
+        Navigation:
+        <a href="index.html">Home</a> ·
+        <a href="resume.html">Resume</a> ·
+        <a href="app.html">Web App</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
